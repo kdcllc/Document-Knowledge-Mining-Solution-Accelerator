@@ -22,7 +22,7 @@ resource aks 'Microsoft.ContainerService/managedClusters@2024-05-01' = {
       {
         name: 'agentpool'
         count: 2
-        vmSize: 'Standard_D4ds_v5'
+        vmSize: 'Standard_D3_v2'
         mode: 'System'
         osType: 'Linux'
         type: 'VirtualMachineScaleSets'
